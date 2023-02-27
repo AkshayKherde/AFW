@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[App URL:http://magnus.jalatechnologies.com]]>
+    </line>
+    <line>
+      <![CDATA[strITO :10]]>
+    </line>
+    <line>
+      <![CDATA[ETO :12]]>
+    </line>
+    <line>
+      <![CDATA[Opening Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the Window]]>
+    </line>
+    <line>
+      <![CDATA[Enter the URL and Load The page :http://magnus.jalatechnologies.com]]>
+    </line>
+    <line>
+      <![CDATA[intITO :10]]>
+    </line>
+    <line>
+      <![CDATA[intETO :12]]>
+    </line>
+    <line>
+      <![CDATA[Logout link is visible]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-26T13:28:32 IST" name="Default suite" finished-at="2023-02-26T13:28:45 IST" duration-ms="13147">
+    <groups>
+    </groups>
+    <test started-at="2023-02-26T13:28:32 IST" name="Default test" finished-at="2023-02-26T13:28:45 IST" duration-ms="13147">
+      <class name="script.ValidLoginPage">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.ValidLoginPage@932bc4a]" started-at="2023-02-26T13:28:32 IST" name="openApp" finished-at="2023-02-26T13:28:41 IST" duration-ms="9116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[App URL:http://magnus.jalatechnologies.com]]>
+            </line>
+            <line>
+              <![CDATA[strITO :10]]>
+            </line>
+            <line>
+              <![CDATA[ETO :12]]>
+            </line>
+            <line>
+              <![CDATA[Opening Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the Window]]>
+            </line>
+            <line>
+              <![CDATA[Enter the URL and Load The page :http://magnus.jalatechnologies.com]]>
+            </line>
+            <line>
+              <![CDATA[intITO :10]]>
+            </line>
+            <line>
+              <![CDATA[intETO :12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLoginPage@932bc4a]" started-at="2023-02-26T13:28:41 IST" name="testValidLogin" finished-at="2023-02-26T13:28:45 IST" duration-ms="3500" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout link is visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.ValidLoginPage@932bc4a]" started-at="2023-02-26T13:28:45 IST" name="closeApp" finished-at="2023-02-26T13:28:45 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.ValidLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
